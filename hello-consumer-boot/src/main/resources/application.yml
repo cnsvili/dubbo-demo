@@ -1,0 +1,10 @@
+server:
+  port: 8088
+  contextPath: /hello-consumer-boot
+
+logging:
+  config: classpath:log4j2.xml
+
+spring:
+  application:
+    name: hello-consumer-boot
